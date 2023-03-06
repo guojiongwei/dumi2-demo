@@ -5,4 +5,6 @@ export default defineConfig({
   themeConfig: {
     name: 'dumi-demo',
   },
+  // @ts-ignore
+  exportStatic: false,
 });
