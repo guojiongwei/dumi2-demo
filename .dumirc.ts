@@ -2,6 +2,10 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   outputPath: 'docs-dist',
+  hash: true,
+  history: {
+    type: 'hash',
+  },
   themeConfig: {
     name: 'dumi-demo',
   },
