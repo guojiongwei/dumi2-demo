@@ -5,6 +5,7 @@ export default defineConfig({
   themeConfig: {
     name: 'dumi-demo',
   },
+  metas: [{ name: 'theme-color', content: '#1677ff' }],
   // @ts-ignore
   exportStatic: false,
   styles: [
