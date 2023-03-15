@@ -27,20 +27,17 @@
     ]
   },
   "lint-staged": {
-    "*.{md,json}": [
+    "src/**/*.{md,json}": [
       "prettier --write --no-error-on-unmatched-pattern"
     ],
-    "*.{css,less}": [
+    "src/**/*.{css,less}": [
       "stylelint --fix",
       "prettier --write"
     ],
-    "*.{js,jsx}": [
+    "src/**/*.ts": [
       "eslint --fix",
-      "prettier --write"
-    ],
-    "*.{ts,tsx}": [
-      "eslint --fix",
-      "prettier --parser=typescript --write"
+      "prettier --parser=typescript --write",
+      "npm run test:staged"
     ]
   },
   "devDependencies": {
