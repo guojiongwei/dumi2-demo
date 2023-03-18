@@ -4,13 +4,12 @@
     "declaration": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "noUnusedLocals": true,
     "jsx": "react",
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "dumi-demo": ["src"],
-      "dumi-demo/*": ["src/*", "*"]
+      "@wuyou/dumi": ["src"],
+      "@wuyou/dumi/*": ["src/*", "*"]
     }
   },
   "include": [".dumi/**/*", ".dumirc.ts", "src/**/*"]

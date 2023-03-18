@@ -1,9 +1,9 @@
-# dumi-demo
+# @wuyou/dumi
 
-[![NPM version](https://img.shields.io/npm/v/dumi-demo.svg?style=flat)](https://npmjs.org/package/dumi-demo)
-[![NPM downloads](http://img.shields.io/npm/dm/dumi-demo.svg?style=flat)](https://npmjs.org/package/dumi-demo)
+[![NPM version](https://img.shields.io/npm/v/@wuyou/dumi.svg?style=flat)](https://npmjs.org/package/@wuyou/dumi)
+[![NPM downloads](http://img.shields.io/npm/dm/@wuyou/dumi.svg?style=flat)](https://npmjs.org/package/@wuyou/dumi)
 
-dumi 搭建组件库和函数库 demo
+A react library developed with dumi
 
 ## Usage
 
@@ -17,22 +17,22 @@ TODO
 
 ```bash
 # install dependencies
-$ pnpm install
+$ npm install
 
 # develop library by docs demo
-$ pnpm start
+$ npm start
 
 # build library source code
-$ pnpm run build
+$ npm run build
 
 # build library source code in watch mode
-$ pnpm run build:watch
+$ npm run build:watch
 
 # build docs
-$ pnpm run docs:build
+$ npm run docs:build
 
 # check your project for potential problems
-$ pnpm run doctor
+$ npm run doctor
 ```
 
 ## LICENSE

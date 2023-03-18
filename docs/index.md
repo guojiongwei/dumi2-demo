@@ -1,7 +1,7 @@
 ---
 hero:
   title: library
-  description: dumi搭建组件库和函数库demo
+  description: A react library developed with dumi
   actions:
     - text: Hello
       link: /
@@ -19,4 +19,4 @@ features:
     description: Put ! description here
 ---
 
-dumi-demo
+@wuyou/dumi
