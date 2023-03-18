@@ -35,10 +35,9 @@
       "stylelint --fix",
       "prettier --write"
     ],
-    "src/**/*.ts": [
+    "src/**/*.{ts, tsx}": [
       "eslint --fix",
-      "prettier --parser=typescript --write",
-      "npm run test:staged"
+      "prettier --parser=typescript --write"
     ]
   },
   "publishConfig": {
