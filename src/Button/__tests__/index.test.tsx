@@ -13,13 +13,13 @@ describe('Button组件', () => {
   it('能够正确渲染默认样式的按钮', () => {
     const { getByRole } = render(<Button >默认按钮</Button>);
     const buttonElement = getByRole('button');
-    expect(buttonElement.classList.contains('button')).toBe(true);
+    expect(buttonElement.classList.contains('dumi-btn')).toBe(true);
   });
 
   it('能够正确渲染主要样式的按钮', () => {
     const { getByRole } = render(<Button type="primary">主要按钮</Button>);
     const buttonElement = getByRole('button');
-    expect(buttonElement.classList.contains('button-primary')).toBe(true);
+    expect(buttonElement.classList.contains('dumi-btn-primary')).toBe(true);
   });
 
   it('能够触发点击事件', () => {

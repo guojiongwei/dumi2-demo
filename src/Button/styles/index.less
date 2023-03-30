@@ -1,0 +1,27 @@
+@import '../../variables.less';
+
+.dumi-btn {
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 6px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.dumi-btn-default {
+  background: #fff;
+  color: #333;
+  border: 1px solid #d9d9d9;
+
+  &:hover {
+    color: @dumi-primary;
+    border-color: @dumi-primary;
+  }
+}
+
+.dumi-btn-primary {
+  color: #fff;
+  background: @dumi-primary;
+  border: 1px solid @dumi-primary;
+}

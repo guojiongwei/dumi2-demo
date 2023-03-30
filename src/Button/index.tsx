@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-
+import './styles/index.less'
 export interface ButtonProps {
   /** 按钮类型 */
   type?: 'primary' | 'default';
@@ -14,7 +14,7 @@ const Button: React.FC<ButtonProps> = (props) => {
   return (
     <button
       type='button'
-      className={`button ${type ? 'button-' + type : ''}`}
+      className={`dumi-btn ${type ? 'dumi-btn-' + type : ''}`}
       onClick={onClick}
     >
       {children}
