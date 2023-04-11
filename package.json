@@ -15,7 +15,9 @@
     "lint": "npm run lint:es && npm run lint:css",
     "lint:css": "stylelint \"{src,test}/**/*.{css,less}\"",
     "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
-    "prepublishOnly": "father doctor && npm run build"
+    "prepublishOnly": "father doctor && npm run build",
+    "test:all": "jest --coverage --bail",
+    "test:staged": "node jest.staged.js"
   },
   "authors": [],
   "license": "MIT",
@@ -37,7 +39,8 @@
     ],
     "src/**/*.{ts, tsx}": [
       "eslint --fix",
-      "prettier --parser=typescript --write"
+      "prettier --parser=typescript --write",
+      "npm run test:staged"
     ]
   },
   "publishConfig": {
