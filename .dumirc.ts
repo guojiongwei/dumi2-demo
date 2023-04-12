@@ -12,6 +12,8 @@ export default defineConfig({
       '@dumi-primary': '#1DA57A'
     }
   },
+  // 取消打包静态单个组件库和函数工具
+  exportStatic: false,
   styles: [
     `.dumi-default-header-left {
       width: 220px !important;
