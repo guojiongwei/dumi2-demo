@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx lint-staged -p true -v # 加上参数才能看到执行的js文件打印的日志
+npx lint-staged -v # 加上-v参数(--verbose 缩写)才能看到执行的js文件打印的日志
