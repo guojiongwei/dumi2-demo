@@ -3,37 +3,38 @@
 [![NPM version](https://img.shields.io/npm/v/dumi2-demo.svg?style=flat)](https://npmjs.org/package/dumi2-demo)
 [![NPM downloads](http://img.shields.io/npm/dm/dumi2-demo.svg?style=flat)](https://npmjs.org/package/dumi2-demo)
 
-A react library developed with dumi
+一个使用dumi2搭建的react组件和工具库demo
 
-## Usage
+## 文档地址
+https://dumi.guojiongwei.top
 
-TODO
 
-## Options
+## demo教程博客文章地址
+https://juejin.cn/user/395479919369575/posts
 
-TODO
+## 安装
 
-## Development
-
+安装组件库
 ```bash
-# install dependencies
-$ npm install
-
-# develop library by docs demo
-$ npm start
-
-# build library source code
-$ npm run build
-
-# build library source code in watch mode
-$ npm run build:watch
-
-# build docs
-$ npm run docs:build
-
-# check your project for potential problems
-$ npm run doctor
+$ npm i dumi2-demo -S
 ```
+
+## 使用
+```tsx
+import React from 'react';
+import { Button } from 'dumi2-demo';
+
+export default () => {
+
+  return (
+    <>
+      <Button type="default">默认按钮</Button> &nbsp;
+      <Button type="primary">主要按钮</Button>
+    </>
+  );
+}
+```
+
 
 ## LICENSE
 
