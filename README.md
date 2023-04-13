@@ -10,7 +10,8 @@ https://dumi.guojiongwei.top
 
 
 ## demo教程博客文章地址
-https://juejin.cn/user/395479919369575/posts
+【前端工程化】使用dumi2搭建你的组件库和函数库
+https://guojiongwei.top/article/6437c396a751b6075b5eb213
 
 ## 安装
 
