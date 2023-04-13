@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { formatDate } from '@wuyou/dumi';
+import { formatDate } from 'dumi2-demo';
 
 const App: React.FC = () => {
   const [currentDate, setCurrentDate] = useState(formatDate(Date.now(), 'YYYY年MM月DD日 hh:mm:ss'));

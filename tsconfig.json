@@ -8,8 +8,8 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "@wuyou/dumi": ["src"],
-      "@wuyou/dumi/*": ["src/*", "*"]
+      "dumi2-demo": ["src"],
+      "dumi2-demo/*": ["src/*", "*"]
     }
   },
   "include": [".dumi/**/*", ".dumirc.ts", "src/**/*"]

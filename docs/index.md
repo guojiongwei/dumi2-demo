@@ -19,4 +19,4 @@ features:
     description: Put ! description here
 ---
 
-@wuyou/dumi
+dumi2-demo

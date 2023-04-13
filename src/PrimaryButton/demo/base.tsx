@@ -1,7 +1,7 @@
 // src/Button/demo/base.tsx
 
 import React from 'react';
-import { PrimaryButton } from '@wuyou/dumi';
+import { PrimaryButton } from 'dumi2-demo';
 
 export default () => {
 

@@ -1,5 +1,5 @@
 {
-  "name": "@wuyou/dumi",
+  "name": "dumi2-demo",
   "version": "0.0.1",
   "description": "A react library developed with dumi",
   "module": "dist/index.js",
