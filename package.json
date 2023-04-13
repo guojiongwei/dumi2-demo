@@ -4,6 +4,7 @@
   "description": "A demo of a React component and tool library built using Dumi2",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "slideEffects": false,
   "scripts": {
     "start": "npm run dev",
     "dev": "dumi dev",
