@@ -1,6 +1,6 @@
 {
   "name": "dumi2-demo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A demo of a React component and tool library built using Dumi2",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
